@@ -1,6 +1,6 @@
 # DataFrame Global Search
 
-This library will create a search grid for your Pandas DataFrame. If a match is found, a styled dataframe will be returned with matching columns highlighted. 
+This library will create a search grid for your Pandas DataFrame. If a match is found, a styled dataframe will be returned with matching columns highlighted. Search can be performed using Text or Regular Expressions. 
 
 ## PyPi Project
 You can access the PyPi project [here](https://pypi.org/project/df-global-search/)
@@ -11,13 +11,15 @@ pip install df-global-search
 
 ## Available Arguments
 
-|Arg|Type|Default Value|
-|---|---|---|
-|dataframe|pd.DataFrame||
-|text_search| str| None|
-|case_sensitive|bool|False|
-|match_font_color|str|black|
-|match_background_color|str|lightgray|
+|Arg|Type|Default Value|Optional|
+|---|---|---|---|
+|dataframe|pd.DataFrame||🚫|
+|text_search| str| None|✅|
+|highlight_matches|bool|True|✅|
+|regex_search|bool|False|✅|
+|case_sensitive|bool|False|✅
+|match_font_color|str|black|✅|
+|match_background_color|str|lightgray|✅|
 
 ## Usage (with Streamlit)
 ``` python
@@ -35,4 +37,9 @@ with DataFrameSearch(
 
 ## Sample
 
-![sample](images/usage_screenshot.png "Sample")
+### Regular Search
+![sample](images/regular_search.png "Regular Search")
+
+### Regex Search
+
+![sample](images/regex_search.png "Regular Search")
