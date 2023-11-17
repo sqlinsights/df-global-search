@@ -2,9 +2,11 @@
 
 This library will create a search grid for your Pandas DataFrame. If a match is found, a styled dataframe will be returned with matching columns highlighted. 
 
-## Intallation 
+## PyPi Project
+You can access the PyPi project [here](https://pypi.org/project/df-global-search/)
+## Installation 
 ```shell
-pip install df_global_search
+pip install df-global-search
 ```
 
 ## Available Arguments
@@ -29,6 +31,7 @@ with DataFrameSearch(
     st.dataframe(df, use_container_width=True)
     
 ```
+
 
 ## Sample
 
