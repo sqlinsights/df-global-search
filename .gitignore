@@ -1,3 +1,4 @@
 build/*
 dist/*
 df_global_search.egg-info/*
+df_global_search/__pycache__/*
