@@ -1,0 +1,3 @@
+build/*
+dist/*
+df_global_search.egg-info/*
