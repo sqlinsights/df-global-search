@@ -26,9 +26,9 @@ pip install df-global-search
 from df_global_search import DataFrameSearch
 
 with DataFrameSearch(
-        dataframe = df,
-        text_search: 'hello',
-        case_sensitive: bool = False
+        dataframe=df,
+        text_search='hello',
+        case_sensitive=False
 ) as df:
     df.show()
     
