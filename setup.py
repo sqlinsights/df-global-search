@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="df_global_search",
-    version="0.1.0",
+    version="0.1.1",
     author="Carlos D. Serrano",
     author_email="sqlinsights@gmail.com",
     description="Searches for a string in all columns and returns a styled DataFrame if match found. ",

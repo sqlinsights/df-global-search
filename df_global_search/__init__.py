@@ -23,9 +23,9 @@ class DataFrameSearch:
         self.match_background_color = match_background_color
 
     def selection_hightlight(self, val):
-        color = self.match_font_color if val else "black"
-        background = self.match_background_color if val else "white"
-        return f"color: {color}; background-color:{background};"
+        color = f"color: {self.match_font_color};" if val else ""
+        background = f"background-color:{self.match_background_color };" if val else ""
+        return f"{color} {background}"
 
     def __enter__(self):
         if self.text_search:
