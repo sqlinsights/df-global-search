@@ -1,8 +1,6 @@
 import streamlit as st
 from vega_datasets import local_data
 import pandas as pd
-import numpy as np
-
 from df_global_search import DataFrameSearch
 
 st.set_page_config(layout="wide")
