@@ -2,3 +2,6 @@ build/*
 dist/*
 df_global_search.egg-info/*
 df_global_search/__pycache__/*
+venv
+.pytest_cache
+__pycache__
